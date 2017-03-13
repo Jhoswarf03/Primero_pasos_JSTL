@@ -16,7 +16,6 @@ Enter Name:<input type="text" name="name" /><br/><br/>
 <input type="submit" value="go"/>  
 </form>  
 <%  
-
 Cookie co = new Cookie("Nombre","valofsdfsfsr");
 co.setMaxAge(365*24*60*60);
 //response.addCookie(cooki);
